@@ -1,0 +1,55 @@
+.categories__container{
+    width: 1336px;
+    margin: 0 auto;
+
+   
+
+    .categories{
+        display: flex;
+        flex-flow: column;
+        
+
+
+        .headline h3 {
+            text-align: center;
+            margin-bottom: 36px;
+
+        }
+
+        .subcategories{
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 32px;
+
+
+            .category{
+                width:calc(100% / 7);
+                .categorylink{
+                    display:flex;
+                    justify-content:center;
+                    align-items: center;
+                    flex-flow: column;
+                    text-decoration: unset;
+                    color: black;
+                    
+                    
+    
+                    img{
+                        width:100px;
+                        height: 100px;
+    
+                    }
+                    p{
+                        margin-top:8px;
+                        
+                        
+                    }
+                }
+            }
+            
+
+        }
+
+    }
+}
+

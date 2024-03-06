@@ -1,0 +1,25 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+
+}
+
+:root{
+ --font-family: Iran;
+ --border-radius:8px; ;
+}
+html,body{ 
+    direction: rtl;
+    
+}
+
+
+@font-face {
+    font-family:Iran;
+    src: url(../fonts/IRANYekanWeb.eot);
+    src: url(../fonts/IRANYekanWeb.ttf);
+    src: url(../fonts/IRANYekanWeb.woff);
+    src: url(../fonts/IRANYekanWeb.woff2);
+}

@@ -1,0 +1,21 @@
+.container__banners{
+    width:1336px;
+    display: block;
+    margin: auto;
+
+    .banners{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        gap: 16px;
+
+        .banner__link img{
+            width: 100%;
+            height: 100%;
+            
+            border-radius: 16px;
+            object-fit: cover;
+
+        }
+    }
+}

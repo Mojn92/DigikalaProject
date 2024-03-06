@@ -1,0 +1,100 @@
+.containerallcategories{
+
+    width: 1676px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+    padding:20px 0;
+
+    .allcategories{  
+      width:100%;
+      height:100%;
+
+        display: flex;
+
+        .Swiperallcategories {
+            width:100%;
+            height:100%;
+
+            .firstslidofcat{
+
+              > a{
+                background-color: rgb(240,240,241);
+              border-radius:8px;
+              color:rgb(85,26,139);
+              span{
+                  font-size:12;
+                  font-family:var(--font-family);
+                  font-weight: 700;
+              }
+              }
+              
+            }
+      
+           .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             
+
+             .linkofallcategoreos{
+              display: flex;
+              padding:8px 0;
+              margin-right:8px;
+              text-decoration: none;
+
+                .infofallcategories{
+                 display: flex;
+                 flex-flow: column;
+                 justify-content: center;
+                 align-items: center;
+                 overflow-wrap:break-word;
+                 margin:0 12px 8px 12px;
+
+                     img{
+                    width:90px;
+                    height:90px;
+                    margin:0 12px 8px 12px;
+                    object-fit: contain;
+                      }
+
+                     span{
+                    text-align: center;
+                    padding:0 4px;
+                    font-family:var(--font-family);
+                    font-size:12px;
+                    color:rgb(12, 12,12);
+                     }
+            }
+        }
+          }
+          }
+          
+        
+       
+        
+   }
+   
+}
+
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    width: 35px !important;
+    height: 35px !important;
+    background-color: whitesmoke;
+    border-radius: 50% ;
+  }
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 14px !important;
+    color:#2b2b2b;
+    font-weight: bold ;
+  }
+ 
+
+
+
+
+

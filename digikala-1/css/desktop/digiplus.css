@@ -1,0 +1,121 @@
+.containerdigiplus{
+    width:1336px;
+      margin: 0 auto;
+    
+
+    .digiplus{ height: 387px;
+       background-color:#941B80;
+       box-sizing: border-box;
+       display: flex; 
+       padding: 16px;
+       margin-top:24px;
+       border-radius:var(--border-radius);
+       .digiplussection1{
+        background-image:url(../../images/digiplus/1.png);
+        background-size: 372px 279px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-top: 24px;
+        width: 416px;
+        height: 355px;
+        display: flex;
+        flex-flow: column;
+         .digiplusitroduce{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: right;
+         }
+         .digiplusinfo{
+            font-family: var(--font-family);
+            font-size: 14px;
+            margin: 4px 0;
+            color:  #FFFF;;
+
+         }
+
+         .dgiplussignin button{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            border-radius:8px;
+            border:1px solid #FFFF;
+            padding:8px 16px;
+            box-sizing: border-box;
+            background-color: #941B80;
+            color: #FFFF;
+
+            div{
+                height: 24px;
+                margin-right: 8px;
+            }
+         }
+
+       }
+       .digiplussection2{
+         width:868px;
+         height:355px;
+         padding: 0 16px;
+         box-sizing: border-box;
+         border-radius:8px;
+         display:flex;
+         flex-flow:column;
+         background-color: #FFFF;
+         .digiplusdelivery{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            box-sizing: border-box;
+            .deliverytitle{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-left:16px;
+                h4{
+                  margin-right:8px;
+               }
+                span{
+                  display:inline-block;
+                  height:24px;
+                 
+                  
+                }
+
+                
+                 
+            }
+
+            .seeall { 
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-size: 12px;
+               color: #941B80;
+               cursor:pointer;
+                span{
+                  display: inline-block;
+                  height: auto;
+                  
+                  display: flex;
+               }
+            }
+         }
+
+         .digiplusproducts{
+            display: flex;
+            
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+
+            img{
+               width: calc((100% - 140px) / 6);
+               cursor: pointer;
+            }
+
+         }
+      }
+ 
+   }
+}

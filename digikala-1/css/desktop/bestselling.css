@@ -1,0 +1,120 @@
+.containerbestselling{
+    width:1336px;
+    margin: 0 auto;
+    .bestselling{
+        display: flex;
+        flex-flow: column;
+        border-radius: var(--border-radius);
+        border: 1px solid rgb(224, 224, 226) ;
+        padding:16px 0;
+        overflow: hidden;
+      
+        
+
+        .headlinebestselling{
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            position: relative;
+            justify-content: center;
+
+            .titlebestselling{
+                display: flex;
+                align-items: center;
+
+
+                p{
+                    font-size: 21px;
+                }
+            }
+
+            .viewallbest{
+                position: absolute;
+                left: 20px;
+                top: 0;
+
+                a{
+                     display: flex;
+                     align-items: center;
+                     justify-content: flex-end;
+                     text-decoration: none;
+                     color:rgb(25, 191, 211) 
+
+
+                }
+            }
+
+        }
+
+        .bestsellingpro{
+            position: relative;
+            cursor: pointer;
+            margin-top:28px;
+
+            .swiper {
+                width: 100%;
+                height: 100%;
+              
+                .swiper-slide {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                
+                  .subbest{
+                    width:315px;
+                    height:86px;
+                    margin-top:20px;
+                    display: flex;
+                    align-items: center;
+                    .imgbest img{
+                        width:86px;
+                        height:86px;
+                        object-fit: cover;
+                        object-position:center;
+                        margin-left:12px;
+
+                    }
+
+                    .spbest span{
+                        font-size:36px;
+                        font-family: var(--font-family);
+                        margin-left:12px;
+                        color:rgb(25, 191, 211); 
+
+                    }
+
+    
+                    .expbest p{
+                        font-family:var(--font-family);
+                        font-size:12px;
+                        text-align: right;
+                        
+                    }
+
+
+
+                  }
+                }
+                
+                
+              }
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

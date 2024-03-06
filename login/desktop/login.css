@@ -1,0 +1,95 @@
+.containerlogging{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .logging{
+        width:400px;
+        height:438px;
+        display: flex;
+        flex-flow: column;
+        justify-content:center;
+        align-items: right;
+        padding: 32px;
+        border:1px solid rgb(224, 224, 226);
+        border-radius:var(--border-radius);
+        .logo img{
+            display: block;
+            width:150px;
+            height:40px;
+            margin: 0 auto;
+        }
+
+        .details{
+            display: flex;
+            flex-flow: column;
+            
+            
+        
+        .registertitle h1 {
+            margin-top:16px;
+            font-size:19px;
+            font-weight:700;
+            font-family:var(--font-family);
+
+         
+        }
+
+        .Hello  {
+            margin-top:16px;
+            margin-bottom:10px;
+            font-size:12px;
+            font-weight:400;
+            font-family:var(--font-family);
+        }
+        .asking {
+            margin-bottom:16px;
+            font-size:12px;
+            font-weight:400;
+            font-family:var(--font-family);
+
+        }
+   }
+
+   input[type=text]{
+    width:333px;
+    height:45px;
+    border-radius:var(--border-radius);
+    border:1px solid rgb(211,47,47);
+    padding:8px;
+
+   }
+
+   .button{
+    width:333px;
+    height:45px;
+    border-radius:var(--border-radius);
+    border:1px solid ;
+    padding:12px 16px;
+    background: rgb(211,47,47);
+    color: beige;
+    margin-top:32px;
+    cursor: pointer;
+
+   }
+
+   .terms{
+    margin-top:16px;
+    font-size:11px;
+    font-family:var(--font-family);
+    font-weight:400;
+   }
+
+   .terms a{
+    font-size:11px;
+    font-family:var(--font-family);
+    font-weight:400;
+    padding: 0 4px;
+    color: rgb(0,142,178);
+    text-decoration: none;
+    
+   }
+
+  }
+}

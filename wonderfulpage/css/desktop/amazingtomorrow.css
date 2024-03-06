@@ -1,0 +1,116 @@
+.containerwonderfulmarket-2{
+    background-color: #f5f5f5 !important;
+    background-image: linear-gradient(267.6deg, rgba(230, 18, 61, .1), hsla(0, 0%, 95%, 0));
+    background-size: 340px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+      .wonderfulmarket{
+        width:100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+         .wonderfulsection1{
+            display: flex;
+            .imgAinfoamazingtomorrow{
+                display: flex;
+                flex-direction: column;
+                margin:0 20px;
+                span{
+                   
+                    font-size:12px;
+                    color:rgb(12, 12, 12);
+                    font-family:var(--font-family);
+                    text-align: right;
+                }
+                img{
+                    width:206px;
+                    height:28px;
+                }
+
+            }
+            .time{
+                display: flex;
+                column-gap:8px;
+                align-items: center;
+
+               
+                .hour{
+                    display: flex;
+                    width:28px;
+                    height:28px;
+                    background-color: white;
+                    border:1px solid hidden;
+                    border-radius:8px;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                .min{
+                    display: flex;
+                    width:28px;
+                    height:28px;
+                    background-color: white;
+                    border:1px solid hidden;
+                    border-radius:8px;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+
+                .sec{
+                    display: flex;
+                    width:28px;
+                    height:28px;
+                    background-color: white;
+                    border:1px solid hidden;
+                    border-radius:8px;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+
+                 span{
+                    color: black;
+                    font-family:var(--font-family);
+                    font-size:15px;
+                    font-weight: 700;
+                    
+                }
+
+                .seperating{
+                    color: black;
+                    font-family:var(--font-family);
+                    font-size:15px;
+                    font-weight: 700;
+
+                }
+
+
+
+            }
+
+         }
+         .wonderfulsection2{
+
+            .viewallwonder span{
+                color:rgb(239, 57, 78);
+                margin-left:5px;
+              
+            }
+         }
+
+      }
+
+    .wonderfulmarketbg1-1{
+        background: linear-gradient(135deg, rgba(239,57,78, .1) 0, rgba(242,242,242, 0) 100%) !important;
+    
+    }
+
+    .wonderfulmarketbg1-2{
+        background: url(../../images/amazingtomorrow/Pattern.svg) left center no-repeat !important;
+       
+    }
+
+
+}

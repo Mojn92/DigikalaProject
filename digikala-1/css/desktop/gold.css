@@ -1,0 +1,19 @@
+.containergold{
+    width:1336px;
+    margin:0 auto;
+
+    .gold {
+    
+        a{
+            img{ 
+                width:100%;
+                object-fit: cover;
+                border-radius:var(--border-radius);
+        
+                }
+        }
+    }
+
+     
+}
+

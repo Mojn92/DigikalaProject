@@ -1,0 +1,77 @@
+.containerdigiclub{
+    width: 1336px;
+    margin: 0 auto;
+    .digiclub{
+       height:96px;
+       display: flex;
+       justify-content: space-between;
+       text-align: center;
+       padding: 12px 16px;
+       box-sizing: border-box;
+       margin-top: 8px;
+       border-radius: var(--border-radius);
+       background: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
+       
+       .digiclublogo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         a , a span {
+            display: inline-block;
+            height: 42px;
+;
+    
+           } 
+       } 
+       
+       .digiclubsections{
+        display: flex;
+        gap: 4px;
+
+        .digiclublink{
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+
+            .digiclubimage {
+                height: 100%;
+                img{
+                    object-fit:cover;
+                    height:100%;
+                    width: 100%;
+                    
+    
+    
+                }
+            }
+
+            .digiclubtex{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                span{
+                    display: flex;
+
+                }
+            }
+        }
+
+       }
+    }
+    
+}
+
+
+.digiclublink:nth-child(1){
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.digiclublink:nth-last-child(1){
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}

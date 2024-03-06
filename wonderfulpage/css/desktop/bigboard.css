@@ -1,0 +1,14 @@
+.containterbigboard{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    width:1664px;
+    background-color:#e6123d;
+    padding:0 16px;
+    .bigboard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

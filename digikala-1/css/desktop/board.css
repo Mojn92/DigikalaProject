@@ -1,0 +1,28 @@
+.containerboard{
+    width: 1336px;
+    margin: 0 auto;
+    .board{
+        width: 1336px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px ;
+
+        .boardpic {
+            width: calc((100% - 16px) / 2);
+
+            a{
+                display: flex;
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    border-radius:var(--border-radius);
+                }
+            }
+
+            
+        }
+
+       
+    }
+}

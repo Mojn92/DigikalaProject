@@ -1,0 +1,131 @@
+.containerfastaccess{
+    width:1644px;
+    margin:0 auto;
+    margin-top:8px;
+
+    .fastaccess{
+        min-height: 110px;
+        width:inherit;
+        position:relative;
+        border-radius:16px;
+        overflow: hidden;
+        background-color: #f0f0f1;
+        
+
+        .l1fastaccess{
+            position: absolute;
+            inset:0;
+            background: url(../../images/fastaccess/firstbackground.svg) right center no-repeat, url(../../images/fastaccess/earlyAccessPatternPlusMobile.svg) left center no-repeat;
+            display: flex;
+            
+        }
+
+        .l2fastaccess{
+            padding:6px 28px 8px 28px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            position:absolute;
+            inset:0;
+            z-index:2;
+            img{
+                width:461px;
+                height:81;
+             }
+            .totaltitlefast{
+                  margin-right:16px;
+                .detailstitlefast{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right:20px;
+                    .headlinefast{
+                        display: flex;
+                        justify-content: right;
+                        align-items: center;
+                        font-size:16;
+                        font-weight: 700;
+                        font-family:var(--font-family);
+                        color: rgb(177, 43, 164);
+                        margin-bottom:4px;
+
+                         .svgfasttitle{
+
+                            margin-left:8px;
+                          }
+
+
+                    }
+
+                    .timefastaccess{
+                        display:flex;
+                        justify-content: right;
+                        align-items: center;
+                        .secondfast{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            padding:4px 12px;
+                            font-size:10px;
+                            font-family:var(--font-family);
+                            cursor:pointer;
+                            color:rgb(148, 27, 128) ;
+                        }
+
+                        }
+
+                        .minutefast{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            padding:4px 12px;
+                            margin:0 12px;
+                            font-size:10px;
+                            font-family:var(--font-family);
+                            cursor:pointer;
+                            color:rgb(148, 27, 128) ;
+                        }
+
+
+                        }
+
+                        .hourfast{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            padding:4px 12px;
+                            font-size:10px;
+                            font-family:var(--font-family);
+                            cursor:pointer;
+                            color:rgb(148, 27, 128) ;
+                        }
+
+                    }
+
+                        .restfast{
+                            margin-left:8px;
+                            font-size:12px;
+                            justify-content: center;
+                            align-items: center;
+                            font-family:var(--font-family);
+                            cursor:pointer;
+                            color:rgb(148, 27, 128) ;
+                        }
+
+                        .timesvgfast{
+                            margin-right:4px;
+                            width:22px;
+                            height:22px;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,415 @@
+header{
+    width: 100%;
+    height: 170px;
+    box-shadow: 0  1px 5px  #D0D0D0;
+
+   .top {
+      width:100%;
+      height: 60px;
+  
+      img {
+        width:inherit;
+        height:inherit;
+        object-fit: cover;
+    }
+  }
+
+  .center{
+     
+   width: 100%;
+   height: 70px;
+   display: flex;
+   flex-flow:  row wrap;
+
+   .logo{
+     width:10%;
+     height:inherit ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .search{
+     width: 70%;
+     height: inherit;
+    
+     display: flex;
+     align-items: center;
+  }
+
+  .login{
+     width: 20%;
+     height: inherit;
+  }
+ 
+   
+}
+}
+
+
+
+ header .center .search input[type=text]{
+    width: 600px;
+    height: 40px;
+    background-color:#f0f0f1;
+    border:none;
+    border-radius:7px;
+    padding-right: 40px;
+ }
+
+ header .center .search input[type=text]::placeholder{
+    font-family: IRAN;
+    font-size: 13px;
+ }
+
+ header .center .login{
+   width: 20%;
+   height: inherit;
+   display: flex;
+   flex-flow:row wrap;
+   justify-content: flex-end;
+   align-content: center;
+   column-gap: 25px;
+   padding-left: 30px;
+ 
+ }
+header .center .login .register{
+   display:flex;
+   width: 140px;
+   height:35px;
+   text-decoration:none;
+   font-family: IRAN;
+   font-size: 12px;
+   font-weight: bold;
+   border: 1px solid #e0e0e2 ;
+   border-radius: 7px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10px;
+   color:#2b2b2b;
+}
+
+header .center .login .line{
+   display: inline-block;
+   width: 1px;
+   height: 30px ;
+   background-color: lightgrey;
+}
+
+header .bottom{
+   width: 100%;
+   height: 40px;
+   display: flex;
+   flex-flow: row wrap;
+}
+header .bottom .right{
+   width: 70%;
+   height: inherit;
+
+}
+ header .bottom .right nav{
+   width: 100%;
+   height: inherit;
+   display: flex;
+   flex-flow: row wrap;
+   padding-right: 35px;
+   column-gap:25px;
+
+}
+header .bottom .right nav  .navitem{
+   height: inherit;
+   width: fit-content;
+ 
+} 
+
+
+header .bottom .right nav .navitem a{
+   display:flex;
+   width: inherit;
+   height: inherit;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   font-family: IRAN;
+   font-size: 13px;
+   color: #2b2b2b;
+   display: flex;
+   align-items: center;
+   span{
+    margin-left:5px;
+   }
+}
+
+header .bottom .right nav .navitem > a:hover{
+  border-bottom:2px solid #e6123d;
+
+}
+
+header .bottom .right nav .navitem  .active {
+   font-size:14px ;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+
+   svg{
+    display: block;
+   }
+  
+}
+ header .bottom .left{
+   width: 30%;
+   display: flex;
+   justify-content: flex-end;
+   padding-left: 35px;
+   align-items: center;
+   font-family: IRAN;
+   font-size: 13px;
+ }
+
+
+
+::-webkit-scrollbar{
+   width: 10px;
+   background-color: lightgrey;
+}
+::-webkit-scrollbar-thumb{
+   width: 10px;
+   background-color: grey;
+   border-radius: 5px;
+}
+
+
+
+.navitemcategory:hover .containermegamenu{
+  display: block;
+
+}
+
+
+.navitemcategory{
+      position: relative;
+      display: flex;
+      align-items: center;
+
+
+   .containermegamenu{
+      top: 40px;
+      display:none;
+      height: calc(100vh - 200px);
+      max-height: 588px;
+      width:1079px!important; 
+      position: absolute;
+      z-index:999;
+      background-color:#fff;
+    
+       .categriesofmega{
+          display: flex;
+          flex-direction: column;
+          width:100%;
+          height:100%;
+          overflow-y: scroll;
+          direction: ltr;
+          float:right;
+
+
+          .nameofsubcategories{
+            direction: rtl;
+            background-color: #f0f0f1;
+            padding:12px 8px;
+            font-family:var(--font-family);
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            font-size:12px ;
+            cursor:pointer;
+            .icone{
+              margin-left:8px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width:18px;
+              height:18px;
+      
+            }
+
+            
+          }
+
+          .nameofsubcategories:hover{
+            background-color:#fff;
+            
+            color:#ef394e;
+            
+            svg path{
+              fill: #ef394e;
+            }
+
+          }
+
+
+          .nameofsubcategories1:hover ~ .pagesofmenu1{
+
+            z-index: 9;
+
+          }
+
+          .nameofsubcategories2:hover ~ .pagesofmenu2{
+            z-index: 9;
+            background-color: blueviolet;
+          }
+
+          .nameofsubcategories3:hover ~ .pagesofmenu3{
+            z-index: 9;
+            background-color: aqua;
+          }
+
+          .nameofsubcategories4:hover ~ .pagesofmenu4{
+            z-index: 9;
+            background-color: black;
+          }
+
+          .nameofsubcategories5:hover ~ .pagesofmenu5{
+            z-index: 9;
+            background-color: brown;
+          }
+
+          .nameofsubcategories6:hover ~ .pagesofmenu6{
+            z-index: 9;
+            background-color: cadetblue;
+          }
+
+          .nameofsubcategories7:hover ~ .pagesofmenu7{
+            z-index: 9;
+            background-color: chartreuse;
+          }
+
+          .nameofsubcategories8:hover ~ .pagesofmenu8{
+            z-index: 9;
+            background-color: chocolate;
+          }
+
+          .nameofsubcategories9:hover ~ .pagesofmenu9{
+            z-index: 9;
+            background-color: crimson;
+          }
+
+          .nameofsubcategories10:hover ~ .pagesofmenu10{
+            z-index: 9;
+            background-color: deeppink;
+          }
+
+          .nameofsubcategories11:hover ~ .pagesofmenu11{
+            z-index: 9;
+            background-color: cornflowerblue;
+          }
+
+          .nameofsubcategories12:hover ~ .pagesofmenu12{
+            z-index: 9;
+            background-color: darksalmon;
+          }
+
+          .nameofsubcategories13:hover ~ .pagesofmenu13{
+            z-index: 9;
+            background-color: khaki;
+          }
+          
+
+          .nameofsubcategories14:hover ~ .pagesofmenu14{
+            z-index: 9;
+            background-color: darkgreen;
+          }
+
+
+
+          
+
+         
+          
+    
+    
+          .pagesofmenu{
+             
+             
+             padding:20px 20px 0;
+             position: absolute;
+             overflow-y: scroll;
+             display: flex;
+             flex-direction: column;
+             right: 200px;
+             left: 0;
+             height: 100%;
+
+             .submenuhead{
+              display: flex;
+              direction: rtl;
+              justify-content: right;
+              height: auto !important;
+              padding:12px 0;
+              font-size:12px;
+              font-family:var(--font-family);
+              margin-bottom:20px;
+
+
+              
+             }
+
+    
+             .ulmega{
+                display: flex;
+                direction: rtl;
+
+                
+                .sessionoful{
+                   
+                   display:flex;
+                   flex-direction: column;
+                   white-space: nowrap;
+                   .sessionultitle{
+                      width:220px;
+                      height: 15px;
+                      padding-right: 4px;
+                      display: flex;
+                      align-items: center;
+                      font-size:14px;
+                      font-family:var(--font-family);
+                      margin-bottom:4px;
+                      margin-bottom:8px;
+                      border-right: 3px solid tomato;
+                      margin:8px 0;
+
+                      
+                   }
+                   a{
+                      padding:4px 0;
+                      
+                      display: flex;
+                      justify-content: right;
+                      
+
+                      & :hover{
+                         color: #ef394e !important;
+                         
+                      }
+
+                   }
+                }
+                
+             }
+          }
+
+          .pagesofmenu1{
+            background-color: #fff;
+            z-index: 8;
+            
+          }
+
+          
+
+          
+
+          
+       }
+    
+    }
+}

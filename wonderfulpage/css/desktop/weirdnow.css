@@ -1,0 +1,283 @@
+.containerwierdnow{
+    width:1664px;
+    height:362px;
+    margin:0 auto;
+    padding:0 16px;
+   
+      .weirdnow{
+        width:100%;
+        height:inherit;
+        margin-top:16px;
+        padding-bottom:12px;
+        padding-right:16px;
+        border-radius:8px;
+        background-color: #e6123d;
+        background-image:url(../../images/weirdnow/deal-pattern.svg);
+        display: flex;
+        flex-direction: column;
+          .headwierdnow{
+            display: flex;
+            margin:0 16px;
+            padding:16px 0;
+              .titlewierdnow{
+                font-size:16px;
+                color: white;
+                font-family:var(--font-family);
+                font-weight: 600;
+
+              }
+              .svgstar{
+                margin-left:8px;
+              }
+          }
+
+          .weirdnowSwiper {
+            width: 100%;
+            height: 100%;
+            padding:4px;
+            
+          }
+      
+          .swiper-slide {
+            width:768px !important;
+            background-color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius:8px;
+
+            .weirdnowlink{
+              padding:8px 16px;
+              display: flex;
+              text-decoration: none;
+               .divweirdnow{
+                 width:736px;
+                 display: flex;
+                 flex-flow: column;
+                   .weirdnowofferlogo{
+                    display: flex;
+                    justify-content: right;
+                    align-items: center;
+                    margin-bottom:4px;
+
+                   }
+                   .entireweirdnow{
+                    display: flex;
+                    width:736px;
+                    align-items: center;
+                    .mainimgweirdnow{
+                      margin-left:12px; 
+                        img{
+                      width:200px;
+                      height:200px;
+                     }
+
+                    }
+                  
+                    
+                     .detailinfoweirdnow{
+                      display:flex;
+                      flex-direction: column;
+                      justify-content: right;
+                      
+                       .empty{
+                        width:524px;
+                        height:30px;
+                        margin-bottom:4px;
+                       }
+                       
+                       .nameproductweirdnow{
+                        width:524px;
+                        height:52px;
+                          h3{
+                            font-size:12px;
+                            font-family:var(--font-family);
+                            font-weight:700 ;
+                            color:rgb(63, 64, 100);
+                            
+                          }
+                       }
+
+                       .scoreandcolor{
+                         display: flex;
+                         justify-content: space-between;
+                         align-items: center;
+                         width:524px;
+
+                         .name-kindcolor{
+                          display: flex;
+
+                         .kindofcolor{
+                          width:14px;
+                          height:14px;
+                          border-radius:50%;
+                          background-color: black;
+                         }
+                         p{
+                          font-size:12px;
+                          font-family:var(--font-family);
+                          font-weight:700 ;
+                          color:rgb(63, 64, 100);
+                          margin-right:8px;
+                          margin-bottom:5px;
+
+                         }
+
+                         }
+
+                         .starscoreweird{
+                          display: flex;
+                           .starweirdnow{
+                            margin-right:8px;
+                           }
+
+                           p{
+                            font-size:12px;
+                            font-family:var(--font-family);
+                            font-weight:700 ;
+                            color:rgb(63, 64, 100);
+                            margin-right:8px;
+  
+                           }
+                          
+                         }
+                        
+
+                       }
+
+                       .finalofffirst{
+                        display: flex;
+                        flex-flow: column;
+                      
+                         .weirdcostinfo{
+                          display: flex;
+                          text-align: center;
+                          justify-content: space-between;
+
+                                .percent{
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              width:34px;
+                              height:20px;
+                              background-color:rgb(211, 47, 47);
+                              color:white;
+                              font-size:12px;
+                              font-family:var(--font-family);
+                              border-radius:16px;
+                              
+                            }
+                            .sectionweird2{
+                              display: flex;
+                              column-gap:4px;
+                              
+                               .finalcostweird{
+                                height:33px;
+                                color:rgb(63, 64, 100);
+                                font-size:16px;
+                                font-family:var(--font-family);
+                                
+                                
+
+                               }
+                            }
+                         }
+
+                         .firstcostweird{
+                          height:26px;
+                          display: flex;
+                          justify-content: left;
+                          align-items: center;
+                          padding-left:20px;
+                          text-decoration: line-through;
+                          color:rgb(192, 194, 197);
+                          font-size:12px;
+                          font-family:var(--font-family);
+
+                         }
+
+                       
+                       }
+                       
+                       .timeweirdnow{
+                        height:26px;
+                        padding-top:4px;
+                        display: flex;
+                        justify-content: left;
+                        align-items: center;
+                        color: rgb(239, 57, 78);
+                        font-family:var(--font-family);
+                        font-size:12px;
+
+                       }
+
+                        
+
+                     }
+
+
+                   }
+               }
+
+            }
+            .lockedweirdnow1{
+              display: flex;
+              align-items: center;
+              width:inherit;
+              height:inherit;
+              overflow: hidden;
+              position:relative;
+              
+              
+            }
+            .lockedweirdnow2{
+                width:inherit;
+                height:inherit;
+                border-radius:8px;
+                position: absolute;
+                background-color: rgba(0, 0, 0, .65);
+                
+              }
+
+              .lockedweirdnow3{
+                display: flex;
+                flex-flow: column;
+                justify-content:space-between;
+                align-items: center;
+                width:190px;
+                height:130px;
+                margin:auto auto;
+                position: absolute;
+                z-index:1;
+                .svglock{
+                  display: flex;
+                  padding-right:15px;
+                  padding-top:15px;
+                  background-color: #ef4056;
+                  width:80px;
+                  height:80px;
+                  border-radius:50%;
+
+                }
+                span{
+                  font-family:var(--font-family);
+                  color:white;
+                  font-size:15px;
+                  font-weight: 700;
+
+                }
+
+
+              }
+
+          }
+      
+        
+      }
+
+}
+
+
+
+
+

@@ -1,0 +1,149 @@
+.containerwonderfulmarket{
+    width:1644px;
+    margin:0 auto;
+    position: relative;
+    min-height: 110px;
+    border-radius:16px;
+    overflow: hidden;
+    margin-top:24px;
+    background-color: #f0f0f1;
+
+
+    .wonderfulmarket{
+        display: flex;
+        width:100%;
+        
+        
+        justify-content:space-between;
+        align-items: center;
+        text-decoration: none;
+        position: absolute;
+        inset:0;
+        z-index:1;
+        padding: 16px 40px 12px;
+        
+        .wonderfulsection1{
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            box-sizing: border-box;
+        .wonderfultitle{
+            margin:0 20px;
+        }
+            
+            .wonderfuloff{
+
+                border-radius:var(--border-radius);
+                border:1px hidden;
+                background-color: rgb(57, 174, 0);
+                color:rgb(255, 255, 255) ;
+                font-family:var(--font-family);
+                font-size:14px;
+                padding:0 12px;
+                font-weight: 700;
+                line-height: 2.15;
+                text-align: center;
+        
+            }
+        }
+
+        .wonderfulsection2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .wonderfulproducts{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .wonderprolink{
+                    padding: 8px;
+                    margin-left: 8px;
+                    border-radius:50%;
+                    background-color: #fff;
+                    display: flex;
+                    position: relative;
+                    
+
+                    .wonderimage{
+                        width: 58px;
+                        height: 58px;
+                        border-radius:50%;
+                        overflow: hidden;
+
+                         img{
+                            width:100%;
+                            height: 100%;
+                            object-fit: cover;
+                         }
+                    }
+
+                    .wonderproof{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        background-color: #d32f2f;
+                        color: #fff;
+                        width: 34px;
+                        height: 20px;
+                        border-radius: 10px;
+                        padding: 0 4px;
+                        bottom: 0;
+                        right: 0;
+                        font-family:var(--font-family);
+                        font-size:12px;
+                    }
+
+
+                }
+            }
+
+            .viewallwonder{
+               display: flex;
+               background-color: #fff;
+               font-size:12px;
+               border: 1px hidden;
+               padding: 12px 20px;
+               border-radius:22px;
+               
+
+               & a{
+                text-decoration: none;  
+                color: rgb(57, 174, 0);
+                display: flex;
+                justify-content:center ; 
+                align-items: center;
+
+                div{
+                    height: 20px;
+                }
+               }
+
+            }
+
+        }
+    }
+
+    .wonderfulmarketbg1{
+        
+        background: linear-gradient(267.6deg, rgba(57,174,0, .1) 0, rgba(242,242,242, 0) 100%);
+        opacity: 0.3;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .wonderfulmarketbg2{
+        background: url(../../images/wonderfulsupermarket/freshPattern.svg) left center no-repeat;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom:0;
+    }
+
+
+}
