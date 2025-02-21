@@ -6,6 +6,10 @@
 
 }
 
+main{
+    overflow:hidden;
+}
+
 :root{
  --font-family: Iran;
  --border-radius:16px; 
